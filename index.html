@@ -76,12 +76,21 @@
             display: block;
         }
 
-        .vjs-playlist-item {
+        .vjs-playlist, .vjs-playlist-item {
             font-family: Arial, sans-serif;
             font-size: 12px;
         }
 
-  /*       .vjs-playlist-item .vjs-playlist-thumbnail.vjs-playlist-thumbnail-placeholder {
+        .vjs-playlist .vjs-playlist-remaining {
+            padding-top: 7px;
+            padding-bottom: 7px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            background-color: black;
+        }
+
+        /*       .vjs-playlist-item .vjs-playlist-thumbnail.vjs-playlist-thumbnail-placeholder {
             display: inline-block;
         } */
 
@@ -93,11 +102,11 @@
             display: none;
         }
 
-    /*     .vjs-playlist-item .vjs-playlist-duration {
+        /*     .vjs-playlist-item .vjs-playlist-duration {
             display: inline-block;
         } */
 
-     /*    .vjs-playlist-title-container {
+        /*    .vjs-playlist-title-container {
             display: inline-block;
         } */
 
